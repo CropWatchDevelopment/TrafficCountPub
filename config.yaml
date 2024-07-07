@@ -1,0 +1,17 @@
+roi_line_position: 240
+desired_fps: 15
+video_source: 'rtsp://username:password@192.168.1.48/axis-media/media.amp'
+roi_lines:
+  - start: [285, 130]
+    end: [285, 640]
+    classes: ['car', 'truck', 'bicycle', 'motorcycle']
+  - start: [0, 250]
+    end: [270, 250]
+    classes: ['person']
+  - start: [490, 30]
+    end: [490, 150]
+    classes: ['person']
+supabase_url: 'https://<PROJECT-ID>.supabase.co'
+supabase_key: '<API-KEY>'
+dev_eui: '110110145241600107'
+insertion_period_minutes: 1

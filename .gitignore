@@ -1,0 +1,5 @@
+/images
+*.jpg
+/.vscode
+workspace
+__pycache__
